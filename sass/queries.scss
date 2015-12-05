@@ -1,0 +1,236 @@
+header {
+    width: 400px;
+    /* default */
+    margin: 0 auto;
+    position: relative;
+    h1 {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    nav {
+        width: 100%;
+        padding: 2rem 0;
+        clear: both;
+        ul li {
+            width: 100%;
+            float: none;
+            a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                color: #222;
+                font-size: 1.414rem;
+                letter-spacing: 0.25rem;
+                border: 1px solid #d4d4d4;
+                border-bottom: none;
+                padding: 1.0rem 2rem;
+                line-height: 1;
+                background-color: #fff;
+                &:hover {
+                    font-weight: 700;
+                    color: #7C593C;
+                }
+            }
+        }
+        h1 {
+            color: #7C593C;
+            letter-spacing: 0.1rem;
+            i.fa-lg {
+                display: block;
+                width: 25%;
+                float: left;
+                font-size: 7rem;
+                line-height: 12.7936rem;
+                color: #C9A689;
+                ~ span {
+                    float: right;
+                    width: 75%;
+                    font-size: 3.998rem;
+                    /**
+    2 lines of 3.998 * 1.6 = 12.7936
+    **/
+                    padding-left: 1rem;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+footer {
+    padding: 2rem 0;
+    .col-2:first-child {
+        border-left: 0;
+    }
+    p {
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        color: #222;
+    }
+    h4 {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem;
+        color: #7C593C;
+    }
+    .fa-circle {
+        color: #222;
+    }
+    h4[lang=de] {
+        display: block;
+    }
+}
+
+header {
+    width: 700px;
+    margin: 0 auto;
+    min-height: 8rem;
+    h1 {
+        width: 100%;
+        color: #7C593C;
+        i.fa-lg {
+            display: inline;
+            color: #7C593C;
+            vertical-align: baseline;
+            float: none;
+            font-size: 4rem;
+            line-height: 6.3968rem;
+            ~span {
+                float: none;
+                letter-spacing: 0.25rem;
+                font-size: 3.998rem;
+                /**
+        1 lines of 3.998 * 1.6 = 6.3968
+        **/
+                text-align: left;
+            }
+        }
+    }
+    :before {
+        width: 230px;
+    }
+    :after {
+        width: 230px;
+    }
+    nav {
+        position: static;
+        clear: both;
+        width: 100%;
+        padding: 0;
+        ul li {
+            width: 20%;
+            float: left;
+            a {
+                font-size: 1rem;
+                line-height: 2rem;
+                min-height: 6rem;
+                border: none;
+                border-left: 1px solid #d4d4d4;
+                padding: 1.0rem;
+                background-color: #fff;
+                &:last-child {
+                    border-right: 1px solid #d4d4d4;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 700px;
+    margin: 0 auto;
+    .fa-circle {
+        color: #C9A689;
+    }
+    
+
+    h4[lang=ru] {
+        display: block;
+    }
+}
+
+footer {
+    font-size: 1.414rem;
+    letter-spacing: 0.2rem;
+    p {
+        font-size: 1.414rem;
+        letter-spacing: 0.2rem;
+        &:last-child {
+            color: #d4d4d4;
+        }
+    }
+    .fa-circle {
+        color: #89C0C9;
+    }
+    h4[lang=en] {
+        display: block;
+    }
+}
+
+ 
+
+
+
+
+
+header {
+   width: 900px;
+        margin: 0 auto;
+   
+    h1 {
+          width: 100%;
+        color: #3a5E63;
+        i.fa-lg {
+            display: inline;
+        color: #3a5E63;
+        vertical-align: baseline;
+        float: none;
+        font-size: 4rem;
+        line-height: 6.3968rem;
+            ~span {
+               float: none;
+        letter-spacing: 0.25rem;
+        font-size: 3.998rem;
+        /**
+        1 lines of 3.998 * 1.6 = 6.3968
+        **/
+        text-align: left;
+            }
+        }
+    }
+    :before {
+         width: 300px;
+    }
+    :after {
+        width: 300px;
+    }
+    nav {
+       position: static;
+        clear: both;
+        width: 100%;
+        padding: 0;
+        ul li {
+            width: 20%;
+        float: left;
+        background-color: #fff;
+            a {
+               font-size: 1rem;
+        line-height: 2rem;
+        min-height: 2rem;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        padding: 0 1.0rem;
+        margin: 1.0rem 0;
+        background-color: #fff;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
